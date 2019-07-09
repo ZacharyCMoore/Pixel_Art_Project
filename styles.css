@@ -3,13 +3,16 @@ body {
 }
 
 h1 {
-    font-family: Monoton;
+    /*Here I changed the font family to Press Start 2P */
+    font-family: 'Press Start 2P', cursive;
     font-size: 70px;
     margin: 0.2em;
     color: blueviolet
 }
 
 h2 {
+    /*I added the Press Start 2P font family to this heading type */
+    font-family: 'Press Start 2P', cursive;
     margin: 1em 0 0.25em;
 }
 
@@ -17,7 +20,10 @@ h2:first-of-type {
     margin-top: 0.5em;
 }
 
-table,
+table{
+    /*I added a default background color to the table as it is created to make up for the background image of the HTML file */
+    background-color: white;
+}
 tr,
 td {
     border: 1px solid black;
@@ -40,9 +46,23 @@ td {
 
 input[type=number] {
     width: 6em;
+    /*I added the Press Start 2P font to this section so that any input will be a pixelated font */
+    font-family: 'Press Start 2P', cursive;
 }
 
 html {
     background-image: url("https://cdn.pixilart.com/photos/large/1420c52ba68f844.png");
+}
 
+/*I added the Press Start 2P font to the sizePicker ID */
+#sizePicker{
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+/*I added these styles to the submit button to make it less bland*/
+#submitButton{
+    background-color: red;
+    font-family: 'Press Start 2P', cursive;
+    color: blue;
 }
